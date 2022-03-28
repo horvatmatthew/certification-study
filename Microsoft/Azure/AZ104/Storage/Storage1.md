@@ -15,8 +15,8 @@ Azure Storage includes these data services, each of which is accessed through a 
 |BlobStorage|Legacy blob only storage accounts, use Gen Purpose v2 when possible, can be upgraded|
 
 # Storage Account Performance
-- Standard -> All storage accounts, best cost option, recommended for general purpose needs, Backup and disaster recovery data, media
-- Premium -> Available for BlockBlob storage, FileStorage (uses SSD), GPv1 & GPv2 (unmanaged VHDs only), Interactive, Analytics, AI/ML
+- Standard -> All storage accounts, best cost option, recommended for general purpose needs, Backup and disaster recovery data, media -> Magnetic Drives (HDD), lowest cost per GB
+- Premium -> Available for BlockBlob storage, FileStorage (uses SSD), GPv1 & GPv2 (unmanaged VHDs only), Interactive, Analytics, AI/ML -> Solid-State Drives (SSD) offers consistent low-latency performance.  Use for Azure Virtual machine disks with I/O-intensive applications, like databases
 
 # Access Tiers
 
